@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASHIVA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+
+    <nav>
+
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href=""><span class="material-symbols-outlined">
+                        close
+                    </span></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">More...</a></li>
+
+        </ul>
+
+
+        <ul>
+            <li><img src="Images/Logo.png" height="90px" width="120px" alt=""></li>
+
+            <!-- <form role="search" id="form">
+                <div class="input-group">
+                    <input type="search" placeholder="Search your product" class="form-control" />
+                    <button class="btn bg-white" type="submit">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </form> -->
+
+
+            <li class="bigscreen"><a href="#">Home</a></li>
+            <li class="bigscreen"><a href="#Shop">Shop Now</a></li>
+            <li class="bigscreen"><a href="#">About Us </a></li>
+            <li class="bigscreen"><a href="#Contact">Contact Us</a></li>
+            <li onclick=showSidebar() class="menu"><a href="#"><span class="material-symbols-outlined">
+                        menu
+                    </span></a></li>
+
+        </ul>
+    </nav>
+
+
+
+    <div class="container-fluid bot-nav">
+        <div class="nav-items1">
+
+            <ul>
+                <li><a href="">Featured Products</a></li>
+                <li><a href="Mens Wardrobe/Men's_Wardrobe.html">Mens</a></li>
+                <li><a href="Womens Wardrobe/Women_Wardrobe.html">Womens</a></li>
+                <li><a href="Kids Wardrobe/Kids_Wardrobe.html">Kids</a></li>
+            </ul>
+
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Featured Products
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="Mens Wardrobe/Men's_Wardrobe.html">Mens Section</a></li>
+                    <li><a class="dropdown-item" href="Womens Wardrobe/Women_Wardrobe.html">Womens Section</a></li>
+                    <li><a class="dropdown-item" href="Kids Wardrobe/Kids_Wardrobe.html">Kids Section</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="nav-items2">
+            <ul>
+                <li><a href=""><i class="fa fa-shopping-cart"></i> Cart (0)</a></li>
+
+                <li><a href=""><i class="fa fa-heart"></i> Wishlist (0)</li>
+                <li><a href="Login_Register/register.html"> <i class="fa fa-user"></i> Register </a></li>
+                <li id="uname"> Username </li>
+
+            </ul>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa fa-user"></i> Username
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#"><i class="fa fa-shopping-cart"></i> Cart (0)</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="fa fa-heart"></i> Wishlist (0)</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="fa fa-user"></i> Username</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="hero conatiner" >
+
+        <video autoplay loop muted plays-inline class="background">
+            <source src="Images/Backround.mp4" type="video/mp4">
+        </video>
+
+    </div>
+
+
+
+
+
+
+    <div class=" heading container-fluid" id="Shop">
+        <h1> Our Categories</h1>
+    </div>
+
+    <div class="card-group videos">
+
+        <div class="bubble">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+        <!-- 
+        <div class="bubble">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+        <div class="bubble">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+        <div class="bubble">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div> -->
+
+        <!-- <div class="bubble">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div> -->
+
+        <a href="Mens Wardrobe/Men's_Wardrobe.html">
+
+            <div class="card categories-video">
+
+                <video autoplay loop muted plays-inline>
+                    <source src="Images/Men.mp4" type="video/mp4">
+                </video>
+                <h1>Men's Section</h1>
+
+            </div>
+        </a>
+
+        <a href="Womens Wardrobe/Women_Wardrobe.html">
+
+            <div class="card categories-video">
+                <video autoplay loop muted plays-inline>
+                    <source src="Images/Women.mp4" type="video/mp4">
+                </video>
+                <h1>Women's Section</h1>
+            </div>
+        </a>
+
+        <a href="Kids Wardrobe/Kids_Wardrobe.html">
+
+            <div class="card categories-video">
+                <video autoplay loop muted plays-inline>
+                    <source src="Images/Kids.mp4" type="video/mp4">
+                </video>
+                <h1>kid's Section</h1>
+
+            </div>
+        </a>
+
+    </div>
+
+
+    <div class="container1">
+
+    </div>
+    <div class="container2">
+
+        <div class="heading">
+            <h1>Trending Products</h1>
+        </div>
+
+        <div class="products">
+
+            <div class="slide">
+    
+                <div class="item" style="background-image: url(imagee/top1.avif);">
+                    <div class="content" style="color: rgb(230, 230, 230);">
+                        <div class="name">KIBO</div>
+                        <div class="brief">Women Maroon Cowl Neck Top</div>
+                    </div>
+                </div>
+    
+                <div class="item" style="background-image: url(Images/top2.avif);">
+                    <div class="content" style="color: rgb(230, 230, 230);">
+                        <div class="name">RARE</div>
+                        <div class="brief">Women Casual Black Colour Above Knee</div>
+                    </div>
+                </div>
+    
+                <div class="item" style="background-image: url(Images/top3.avif);">
+                    <div class="content">
+                        <div class="name">Campus Sutra</div>
+                        <div class="brief">Mens Tartan plaid Button Up Shirt</div>
+                    </div>
+                </div>
+    
+                <div class="item" style="background-image: url(Images/top4.avif);">
+                    <div class="content">
+                        <div class="name">CELIO </div>
+                        <div class="brief">Mens Grey Solid Regular Fit Linen Trouser</div>
+                    </div>
+                </div>
+    
+                <div class="item" style="background-image: url(Images/top5.avif);">
+                    <div class="content" style="color: rgb(230, 230, 230);">
+                        <div class="name">PICCOLO</div>
+                        <div class="brief">Black Solid Top With Pants(Set of 2)</div>
+                    </div>
+                </div>
+    
+                <div class="item" style="background-image: url(Images/top6.avif);">
+                    <div class="content">
+                        <div class="name">KID1</div>
+                        <div class="brief">Chirpy Bird Summer Shirt Kurta</div>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="button">
+                <button class="prev"><i class="fa fa-caret-left"></i></button>
+                <button class="next"><i class="fa fa-caret-right"></i></button>
+            </div>
+    
+        </div>
+    
+
+
+
+    </div>
+
+    <div class="container3">
+
+    </div>
+
+    <div class="brands">
+        <div class="heading">
+            <h1>Brands</h1>
+        </div>
+
+        <div class="brand">
+            <div class=" brands_logo col-lg-3 col-md-6 col-sm-12">
+           <img src="Images/addidas.png" alt="">
+        </div>
+        <div class="brands_logo col-lg-2 col-md-6 col-sm-12">
+        <img src="Images/snitch.png" alt="">
+        </div>
+        <div class="brands_logo col-lg-2 col-md-6 col-sm-12">
+        <img src="Images/vasta.png" alt="">
+            
+        </div>
+        <div class="brands_logo col-lg-2 col-md-6 col-sm-12">
+        <img src="Images/arrow.png" alt="">
+           
+        </div>
+        <div class="brands_logo col-lg-2 col-md-6 col-sm-12">
+            <img src="Images/gucci.png" alt="">
+               
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer" id="Contact">
+        <div class="col">
+            <div class="contact">FashionX</div>
+            <br><br><br><br>
+            <input type="email" placeholder="Enter Your Email*">
+            <br><br><br>
+            <div class="subscribe">
+                <button>Subscribe</button>
+            </div>
+            <br><br>
+            <p>Get monthly updates and free resources.</p>
+        </div>
+        <div class="col">
+            <div class="contact">Contact US</div>
+            <p>Phone: +91 6283702861 <br>
+            Email: armankalra45@gmail.com <br>
+            Address: 1234 Street Name City, AA 99999</p>
+            <div class="social-icons">
+                <a href=""><i class="fa fa-phone"></i></a>
+                <a href=""><i class="fa fa-instagram"></i></a>
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-google"></i></a>
+                <a href=""><i class="fa fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="contact" >Recent News</div>
+            <p class="about"><a href="">About Us</a></p>
+            <p class="about"><a href="">Services</a></p>
+            <p class="about"><a href="">Get in touch</a></p>
+        </div>
+    </div>
+
+    <div class="maps">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114964.54550118602!2d-80.31185991859947!3d25.782384292840028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a20ec8c111%3A0xff96f271ddad4f65!2sMiami%2C%20FL%2C%20USA!5e0!3m2!1sen!2sin!4v1725267184029!5m2!1sen!2sin"
+            width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"> 
+        </iframe>
+    </div>
+
+    <div class="Copyright">
+        <p style="color: black; margin: auto;">© Copyright 2024 FashionX - All Rights Reserved</p>
+    </div>
+
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+
+
+        const storedUsername = localStorage.getItem('username');
+
+        var username=document.getElementById('uname');
+        username.innerHTML=storedUsername;
+
+        let next = document.querySelector('.next')
+    let prev = document.querySelector('.prev')
+
+    next.addEventListener('click', function() {
+    let items = document.querySelectorAll('.item')
+    document.querySelector('.slide').appendChild(items[0])
+    })
+
+    prev.addEventListener('click', function() {
+    let items = document.querySelectorAll('.item')
+    document.querySelector('.slide').prepend(items[items.length-1])
+    })
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
